@@ -11,7 +11,7 @@ const int GETS_COUNT = 10000;
 
 void vector_prepends(SortedVector& sv, const int size)
 {
-	//sv.reserve(size);
+	sv.reserve(size);
 	for(int i=size-1; i>=0;i--)
         sv.prepend(i);
 }
